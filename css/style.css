@@ -218,6 +218,23 @@ button {
   .contentLogin .part2 .formulario {
     transform: translateY(0); } }
 
+@media (max-width: 1440px) and (max-height: 700px) {
+  .contentLogin .part2 .formulario form {
+    margin-top: 10px; }
+  .contentLogin .part2 .formulario form label input {
+    height: 43px; }
+  .contentLogin .part2 .formulario form button {
+    padding: 16px 10px; }
+  .contentLogin .part2 .formulario form {
+    gap: 15px; }
+  .contentLogin .part1 {
+    padding: 14px 45px; }
+  .contentLogin::before {
+    height: 102px; }
+  .contentLogin .part2 .formulario form label.contraseña::before,
+  .contentLogin .part2 .formulario form label.correo::before {
+    bottom: 10px; } }
+
 @media (max-width: 850px) {
   .contentLogin .contentImg {
     display: none; }
