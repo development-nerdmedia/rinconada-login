@@ -39,7 +39,15 @@ button {
 
 .contentLogin {
   height: 100vh;
-  display: flex; }
+  display: flex;
+  position: relative; }
+  .contentLogin::before {
+    content: "";
+    position: absolute;
+    background-color: #78b548;
+    height: 114px;
+    width: 100%;
+    z-index: -1; }
   .contentLogin .part1 {
     background-color: #78b548;
     padding: 20px 80px; }
@@ -182,9 +190,17 @@ button {
           font-weight: 500;
           padding: 20px 10px; }
   .contentLogin .contentImg {
-    width: 50%;
+    /*width: 50%;
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;*/
+    width: calc(50% - 20px);
+    position: relative;
+    overflow: hidden;
+    position: absolute;
+    height: calc(100vh - 40px);
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%); }
     .contentLogin .contentImg img {
       width: 100%;
       position: absolute;
