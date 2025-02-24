@@ -45,14 +45,14 @@ button {
     content: "";
     position: absolute;
     background-color: #78b548;
-    height: 114px;
+    height: 125px;
     width: 100%;
     z-index: -1; }
   .contentLogin .part1 {
     background-color: #78b548;
     padding: 20px 80px; }
     .contentLogin .part1 img {
-      width: 112px; }
+      max-width: 100px; }
     .contentLogin .part1 .contentText {
       display: none; }
     .contentLogin .part1 .container {
@@ -231,7 +231,7 @@ button {
   .contentLogin .part1 {
     padding: 14px 45px; }
   .contentLogin::before {
-    height: 102px; }
+    height: 113px; }
   .contentLogin .part2 .formulario form label.contraseña::before,
   .contentLogin .part2 .formulario form label.correo::before {
     bottom: 10px; } }
